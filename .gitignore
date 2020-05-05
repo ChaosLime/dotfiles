@@ -1,6 +1,13 @@
-.steam*
-/steam*
-.cache
-/Desktop
-.config/libreoffice/
-.config/lbry/
+
+# Ignore Everything
+*
+
+# Except these files
+!.gitignore
+!.bashrc
+!.vimrc
+!.xinitrc
+!.zshrc
+!.config/alacritty/alacritty.yml
+!.config/mpv/mpv.conf
+!.config/aliasrc
