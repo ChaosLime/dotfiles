@@ -1,0 +1,6 @@
+.steam*
+/steam*
+.cache
+/Desktop
+.config/libreoffice/
+.config/lbry/
