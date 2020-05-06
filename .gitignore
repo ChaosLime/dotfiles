@@ -11,3 +11,5 @@
 !.config/alacritty/alacritty.yml
 !.config/mpv/mpv.conf
 !.config/aliasrc
+!.config/nvim/*
+!.config/fish/*
