@@ -1,6 +1,6 @@
 set number
-syntax on
-colorscheme delek
+syntax enable
+colorscheme monokai
 set tabstop =4
 set shiftwidth =4
 set expandtab
