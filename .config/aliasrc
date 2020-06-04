@@ -3,5 +3,8 @@ alias \
 	ls="exa -h --color=auto --group-directories-first" \
 	grep="grep --color=auto" \
 	diff="diff --color=auto" \
-	ccat="highlight --out-format=ansi"
-	rmOrphans="pacman -Rns $(pacman -Qtdq)"
+	ccat="highlight --out-format=ansi"\
+	rmOrphans="sudo pacman -Rns $(pacman -Qtdq)"\
+    home="cd ~"\
+    UpdateSystem="sudo pacman -Syu && yay -Syu && flatpak update"\
+    raidmnt="cd /mnt/eccd5b11-5c95-4252-96b3-682c1623c630"\

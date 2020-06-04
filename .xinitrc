@@ -11,8 +11,8 @@ export PATH="$PATH:$HOME/.local/bin/scripts"
 #twmnd &
 dunst &
 #status bar for DWM
-#slstatus &
-dwmblocks &
+slstatus &
+#dwmblocks &
 #background script that holds background info
 ~/.config/.fehbg &
 numlockx &

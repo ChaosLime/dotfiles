@@ -1,6 +1,7 @@
 # Enable colors and change prompt:
 autoload -U colors && colors
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
+stty stop undef # Disable ctrl-s to freeze terminal
 
 # History in cache directory:
 HISTSIZE=10000
@@ -15,15 +16,15 @@ compinit
 _comp_options+=(globdots)		# Include hidden files.
 
 # vi mode
-#bindkey -v
-#export KEYTIMEOUT=1
+bindkey -v
+export KEYTIMEOUT=1
 
 # Use vim keys in tab complete menu:
-#bindkey -M menuselect 'h' vi-backward-char
-#bindkey -M menuselect 'k' vi-up-line-or-history
-#bindkey -M menuselect 'l' vi-forward-char
-#bindkey -M menuselect 'j' vi-down-line-or-history
-#bindkey -v '^?' backward-delete-char
+bindkey -M menuselect 'h' vi-backward-char
+bindkey -M menuselect 'k' vi-up-line-or-history
+bindkey -M menuselect 'l' vi-forward-char
+bindkey -M menuselect 'j' vi-down-line-or-history
+bindkey -v '^?' backward-delete-char
 
 # Change cursor shape for different vi modes.
 function zle-keymap-select {

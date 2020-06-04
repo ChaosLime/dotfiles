@@ -12,5 +12,5 @@
 !.config/mpv/mpv.conf
 !.config/aliasrc
 !.config/nvim/init.vim
-!.config/fish/config.fish
-!.config/fish/fish_variables
+!.vim/colors/monokai.vim
+!.local/bin/bin/*
